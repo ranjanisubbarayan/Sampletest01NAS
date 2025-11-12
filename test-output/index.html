@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 23 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\Happy Family\AppData\Local\Temp\testng-eclipse-1509521706\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 23 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to navigate to try Editor page for Arrays in Python&quot;, &quot;Navigation and interacti...)">runScenario("Verify user is able to navigate to try Editor page for Arrays in Python", "Navigation and interacti...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to navigate to Linked List Page&quot;, &quot;Navigation and interaction in dsAlgo Portal ...)">runScenario("Verify user is able to navigate to Linked List Page", "Navigation and interaction in dsAlgo Portal ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify output for valid python code in Try Editor (Graph topic)&quot;, &quot;Navigation and interaction in ds...)">runScenario("Verify output for valid python code in Try Editor (Graph topic)", "Navigation and interaction in ds...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to navigate to &quot;Practice Questions&quot; Page for &quot;Linked List&quot; page&quot;, &quot;Navigation a...)">runScenario("Verify user is able to navigate to "Practice Questions" Page for "Linked List" page", "Navigation a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify output for valid python code in Try Editor (Graph Representations)&quot;, &quot;Navigation and interac...)">runScenario("Verify output for valid python code in Try Editor (Graph Representations)", "Navigation and interac...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Scenario Outline: Verify error message for Empty &amp; invalid code in tryEditor page&quot;, &quot;Navigation and...)">runScenario("Scenario Outline: Verify error message for Empty & invalid code in tryEditor page", "Navigation and...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to navigate to Introduction page&quot;, &quot;Navigation and interaction in dsAlgo Portal...)">runScenario("Verify user is able to navigate to Introduction page", "Navigation and interaction in dsAlgo Portal...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to navigate to Graph topic page&quot;, &quot;Navigation and interaction in dsAlgo Portal ...)">runScenario("Verify user is able to navigate to Graph topic page", "Navigation and interaction in dsAlgo Portal ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to navigate to Try here page for Introduction page&quot;, &quot;Navigation and interactio...)">runScenario("Verify user is able to navigate to Try here page for Introduction page", "Navigation and interactio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to navigate to Graph page&quot;, &quot;Navigation and interaction in dsAlgo Portal - Grap...)">runScenario("Verify user is able to navigate to Graph page", "Navigation and interaction in dsAlgo Portal - Grap...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to navigate to Graph Representations page&quot;, &quot;Navigation and interaction in dsAl...)">runScenario("Verify user is able to navigate to Graph Representations page", "Navigation and interaction in dsAl...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify error message for Empty &amp; invalid python code in Try Editor (Graph Representations)&quot;, &quot;Navig...)">runScenario("Verify error message for Empty & invalid python code in Try Editor (Graph Representations)", "Navig...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to navigate to Array page&quot;, &quot;Navigation and interaction in dsAlgo Portal - Arra...)">runScenario("Verify user is able to navigate to Array page", "Navigation and interaction in dsAlgo Portal - Arra...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify error message for Empty &amp; invalid python code for Arrays in Python page&quot;, &quot;Navigation and in...)">runScenario("Verify error message for Empty & invalid python code for Arrays in Python page", "Navigation and in...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to open Try Editor from Graph topic page&quot;, &quot;Navigation and interaction in dsAlg...)">runScenario("Verify user is able to open Try Editor from Graph topic page", "Navigation and interaction in dsAlg...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify error message for Empty &amp; invalid python code in Try Editor (Graph topic)&quot;, &quot;Navigation and ...)">runScenario("Verify error message for Empty & invalid python code in Try Editor (Graph topic)", "Navigation and ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify error message for Empty &amp; invalid python code in Try Editor (Graph Representations)&quot;, &quot;Navig...)">runScenario("Verify error message for Empty & invalid python code in Try Editor (Graph Representations)", "Navig...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify error message for Empty &amp; invalid python code for Arrays in Python page&quot;, &quot;Navigation and in...)">runScenario("Verify error message for Empty & invalid python code for Arrays in Python page", "Navigation and in...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to see output for valid python code for Arrays in Python page&quot;, &quot;Navigation and...)">runScenario("Verify user is able to see output for valid python code for Arrays in Python page", "Navigation and...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to open Try Editor from Graph Representations page&quot;, &quot;Navigation and interactio...)">runScenario("Verify user is able to open Try Editor from Graph Representations page", "Navigation and interactio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Practice Questions list is accessible from Graph section&quot;, &quot;Navigation and interaction in ds...)">runScenario("Verify Practice Questions list is accessible from Graph section", "Navigation and interaction in ds...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify error message for Empty &amp; invalid python code in Try Editor (Graph topic)&quot;, &quot;Navigation and ...)">runScenario("Verify error message for Empty & invalid python code in Try Editor (Graph topic)", "Navigation and ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to see output for valid Linked List code for &quot;Introduction&quot; page&quot;, &quot;Navigation ...)">runScenario("Verify user is able to see output for valid Linked List code for "Introduction" page", "Navigation ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runners.MainRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user is able to navigate to Arrays in Python page&quot;, &quot;Navigation and interaction in dsAlgo Po...)">runScenario("Verify user is able to navigate to Arrays in Python page", "Navigation and interaction in dsAlgo Po...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runners.MainRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to navigate to try Editor page for Arrays in Python&quot;, &quot;Navigation and interacti...)">
+                  </a> <!-- runScenario("Verify user is able to navigate to try Editor page for Arrays in Python", "Navigation and interacti...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to navigate to try Editor page for Arrays in Python","Navigation and interaction in dsAlgo Portal - Array Section")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/login&apos;]&quot;}
+  (Session info: chrome=142.0.7444.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.37.0&apos;, revision: &apos;3c1da1e342&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb49b830cde14319b5214d36b47e0a20, findElement {value=//a[@href=&apos;/login&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\HAPPYF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57331}, goog:processID: 3052, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57331/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb49b830cde14319b5214d36b47e0a20
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at pageObjects.LoginPage.loginApplication(LoginPage.java:34)
+	at stepDefinitions.ArrayList.the_user_sign_in_to_ds_algo_portal_entering_firstname_vara_password_varam(ArrayList.java:29)
+	at ✽.The user sign in to dsAlgo Portal entering firstname Vara &amp; password Varam@123(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/ArrayLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to navigate to Linked List Page&quot;, &quot;Navigation and interaction in dsAlgo Portal ...)">
+                  </a> <!-- runScenario("Verify user is able to navigate to Linked List Page", "Navigation and interaction in dsAlgo Portal ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to navigate to Linked List Page","Navigation and interaction in dsAlgo Portal - Linked List Section")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/login&apos;]&quot;}
+  (Session info: chrome=142.0.7444.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.37.0&apos;, revision: &apos;3c1da1e342&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb49b830cde14319b5214d36b47e0a20, findElement {value=//a[@href=&apos;/login&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\HAPPYF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57331}, goog:processID: 3052, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57331/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb49b830cde14319b5214d36b47e0a20
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at pageObjects.LoginPage.loginApplication(LoginPage.java:34)
+	at stepDefinitions.ArrayList.the_user_sign_in_to_ds_algo_portal_entering_firstname_vara_password_varam(ArrayList.java:29)
+	at ✽.The user sign in to dsAlgo Portal entering firstname Vara &amp; password Varam@123(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/LinkedList.feature:4)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify output for valid python code in Try Editor (Graph topic)&quot;, &quot;Navigation and interaction in ds...)">
+                  </a> <!-- runScenario("Verify output for valid python code in Try Editor (Graph topic)", "Navigation and interaction in ds...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify output for valid python code in Try Editor (Graph topic)","Navigation and interaction in dsAlgo Portal - Graph Section")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The user signs in to dsAlgo Portal with username {string} and password {string}&quot;)
+public void the_user_signs_in_to_ds_algo_portal_with_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user clicks {string} link&quot;)
+public void the_user_clicks_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user is on a page having a Try Editor with a Run button to test&quot;)
+public void the_user_is_on_a_page_having_a_try_editor_with_a_run_button_to_test() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user writes valid code in Editor and clicks the Run button&quot;)
+public void the_user_writes_valid_code_in_editor_and_clicks_the_run_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/GraphLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to navigate to &quot;Practice Questions&quot; Page for &quot;Linked List&quot; page&quot;, &quot;Navigation a...)">
+                  </a> <!-- runScenario("Verify user is able to navigate to "Practice Questions" Page for "Linked List" page", "Navigation a...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to navigate to "Practice Questions" Page for "Linked List" page","Navigation and interaction in dsAlgo Portal - Linked List Section")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.60)
+Build info: version: &apos;4.37.0&apos;, revision: &apos;3c1da1e342&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb49b830cde14319b5214d36b47e0a20, get {url=https://dsportalapp.herokuapp.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\HAPPYF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57331}, goog:processID: 3052, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57331/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb49b830cde14319b5214d36b47e0a20
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at pageObjects.LoginPage.goTo(LoginPage.java:40)
+	at stepDefinitions.ArrayList.the_user_sign_in_to_ds_algo_portal_entering_firstname_vara_password_varam(ArrayList.java:28)
+	at ✽.The user sign in to dsAlgo Portal entering firstname Vara &amp; password Varam@123(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/LinkedList.feature:4)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify output for valid python code in Try Editor (Graph Representations)&quot;, &quot;Navigation and interac...)">
+                  </a> <!-- runScenario("Verify output for valid python code in Try Editor (Graph Representations)", "Navigation and interac...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify output for valid python code in Try Editor (Graph Representations)","Navigation and interaction in dsAlgo Portal - Graph Section")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The user signs in to dsAlgo Portal with username {string} and password {string}&quot;)
+public void the_user_signs_in_to_ds_algo_portal_with_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user clicks {string} link&quot;)
+public void the_user_clicks_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user is on a page having a Try Editor with a Run button to test&quot;)
+public void the_user_is_on_a_page_having_a_try_editor_with_a_run_button_to_test() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user writes valid code in Editor and clicks the Run button&quot;)
+public void the_user_writes_valid_code_in_editor_and_clicks_the_run_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/GraphLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Scenario Outline: Verify error message for Empty &amp; invalid code in tryEditor page&quot;, &quot;Navigation and...)">
+                  </a> <!-- runScenario("Scenario Outline: Verify error message for Empty & invalid code in tryEditor page", "Navigation and...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Scenario Outline: Verify error message for Empty & invalid code in tryEditor page","Navigation and interaction in dsAlgo Portal - Linked List Section")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.60)
+Build info: version: &apos;4.37.0&apos;, revision: &apos;3c1da1e342&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb49b830cde14319b5214d36b47e0a20, get {url=https://dsportalapp.herokuapp.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\HAPPYF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57331}, goog:processID: 3052, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57331/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb49b830cde14319b5214d36b47e0a20
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at pageObjects.LoginPage.goTo(LoginPage.java:40)
+	at stepDefinitions.ArrayList.the_user_sign_in_to_ds_algo_portal_entering_firstname_vara_password_varam(ArrayList.java:28)
+	at ✽.The user sign in to dsAlgo Portal entering firstname Vara &amp; password Varam@123(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/LinkedList.feature:4)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to navigate to Introduction page&quot;, &quot;Navigation and interaction in dsAlgo Portal...)">
+                  </a> <!-- runScenario("Verify user is able to navigate to Introduction page", "Navigation and interaction in dsAlgo Portal...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to navigate to Introduction page","Navigation and interaction in dsAlgo Portal - Linked List Section")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[@href=&apos;/login&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.37.0&apos;, revision: &apos;3c1da1e342&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at pageObjects.LoginPage.loginApplication(LoginPage.java:34)
+	at stepDefinitions.ArrayList.the_user_sign_in_to_ds_algo_portal_entering_firstname_vara_password_varam(ArrayList.java:29)
+	at ✽.The user sign in to dsAlgo Portal entering firstname Vara &amp; password Varam@123(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/LinkedList.feature:4)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to navigate to Graph topic page&quot;, &quot;Navigation and interaction in dsAlgo Portal ...)">
+                  </a> <!-- runScenario("Verify user is able to navigate to Graph topic page", "Navigation and interaction in dsAlgo Portal ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to navigate to Graph topic page","Navigation and interaction in dsAlgo Portal - Graph Section")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;&apos; and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The user signs in to dsAlgo Portal with username {string} and password {string}&quot;)
+public void the_user_signs_in_to_ds_algo_portal_with_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user clicks {string} link&quot;)
+public void the_user_clicks_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/GraphLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to navigate to Try here page for Introduction page&quot;, &quot;Navigation and interactio...)">
+                  </a> <!-- runScenario("Verify user is able to navigate to Try here page for Introduction page", "Navigation and interactio...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to navigate to Try here page for Introduction page","Navigation and interaction in dsAlgo Portal - Linked List Section")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.60)
+Build info: version: &apos;4.37.0&apos;, revision: &apos;3c1da1e342&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb49b830cde14319b5214d36b47e0a20, get {url=https://dsportalapp.herokuapp.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\HAPPYF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57331}, goog:processID: 3052, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57331/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb49b830cde14319b5214d36b47e0a20
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at pageObjects.LoginPage.goTo(LoginPage.java:40)
+	at stepDefinitions.ArrayList.the_user_sign_in_to_ds_algo_portal_entering_firstname_vara_password_varam(ArrayList.java:28)
+	at ✽.The user sign in to dsAlgo Portal entering firstname Vara &amp; password Varam@123(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/LinkedList.feature:4)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to navigate to Graph page&quot;, &quot;Navigation and interaction in dsAlgo Portal - Grap...)">
+                  </a> <!-- runScenario("Verify user is able to navigate to Graph page", "Navigation and interaction in dsAlgo Portal - Grap...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to navigate to Graph page","Navigation and interaction in dsAlgo Portal - Graph Section")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given(&quot;The user signs in to dsAlgo Portal with username {string} and password {string}&quot;)
+public void the_user_signs_in_to_ds_algo_portal_with_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/GraphLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to navigate to Graph Representations page&quot;, &quot;Navigation and interaction in dsAl...)">
+                  </a> <!-- runScenario("Verify user is able to navigate to Graph Representations page", "Navigation and interaction in dsAl...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to navigate to Graph Representations page","Navigation and interaction in dsAlgo Portal - Graph Section")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;&apos; and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The user signs in to dsAlgo Portal with username {string} and password {string}&quot;)
+public void the_user_signs_in_to_ds_algo_portal_with_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user clicks {string} link&quot;)
+public void the_user_clicks_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/GraphLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify error message for Empty &amp; invalid python code in Try Editor (Graph Representations)&quot;, &quot;Navig...)">
+                  </a> <!-- runScenario("Verify error message for Empty & invalid python code in Try Editor (Graph Representations)", "Navig...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify error message for Empty & invalid python code in Try Editor (Graph Representations)","Navigation and interaction in dsAlgo Portal - Graph Section")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The user signs in to dsAlgo Portal with username {string} and password {string}&quot;)
+public void the_user_signs_in_to_ds_algo_portal_with_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user clicks {string} link&quot;)
+public void the_user_clicks_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user is on a page having a Try Editor with a Run button to test&quot;)
+public void the_user_is_on_a_page_having_a_try_editor_with_a_run_button_to_test() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/GraphLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to navigate to Array page&quot;, &quot;Navigation and interaction in dsAlgo Portal - Arra...)">
+                  </a> <!-- runScenario("Verify user is able to navigate to Array page", "Navigation and interaction in dsAlgo Portal - Arra...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to navigate to Array page","Navigation and interaction in dsAlgo Portal - Array Section")</span>
+                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.ArrayList.the_user_should_see_output_in_the_console() and stepDefinitions.GraphList.the_user_should_see_output_in_the_console()
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:313)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:307)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:74)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify error message for Empty &amp; invalid python code for Arrays in Python page&quot;, &quot;Navigation and in...)">
+                  </a> <!-- runScenario("Verify error message for Empty & invalid python code for Arrays in Python page", "Navigation and in...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify error message for Empty & invalid python code for Arrays in Python page","Navigation and interaction in dsAlgo Portal - Array Section")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/login&apos;]&quot;}
+  (Session info: chrome=142.0.7444.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.37.0&apos;, revision: &apos;3c1da1e342&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb49b830cde14319b5214d36b47e0a20, findElement {value=//a[@href=&apos;/login&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\HAPPYF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57331}, goog:processID: 3052, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57331/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb49b830cde14319b5214d36b47e0a20
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at pageObjects.LoginPage.loginApplication(LoginPage.java:34)
+	at stepDefinitions.ArrayList.the_user_sign_in_to_ds_algo_portal_entering_firstname_vara_password_varam(ArrayList.java:29)
+	at ✽.The user sign in to dsAlgo Portal entering firstname Vara &amp; password Varam@123(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/ArrayLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to open Try Editor from Graph topic page&quot;, &quot;Navigation and interaction in dsAlg...)">
+                  </a> <!-- runScenario("Verify user is able to open Try Editor from Graph topic page", "Navigation and interaction in dsAlg...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to open Try Editor from Graph topic page","Navigation and interaction in dsAlgo Portal - Graph Section")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;&apos; and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The user signs in to dsAlgo Portal with username {string} and password {string}&quot;)
+public void the_user_signs_in_to_ds_algo_portal_with_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user clicks {string} link&quot;)
+public void the_user_clicks_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/GraphLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify error message for Empty &amp; invalid python code in Try Editor (Graph topic)&quot;, &quot;Navigation and ...)">
+                  </a> <!-- runScenario("Verify error message for Empty & invalid python code in Try Editor (Graph topic)", "Navigation and ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify error message for Empty & invalid python code in Try Editor (Graph topic)","Navigation and interaction in dsAlgo Portal - Graph Section")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The user signs in to dsAlgo Portal with username {string} and password {string}&quot;)
+public void the_user_signs_in_to_ds_algo_portal_with_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user clicks {string} link&quot;)
+public void the_user_clicks_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user is on a page having a Try Editor with a Run button to test&quot;)
+public void the_user_is_on_a_page_having_a_try_editor_with_a_run_button_to_test() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/GraphLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify error message for Empty &amp; invalid python code in Try Editor (Graph Representations)&quot;, &quot;Navig...)">
+                  </a> <!-- runScenario("Verify error message for Empty & invalid python code in Try Editor (Graph Representations)", "Navig...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify error message for Empty & invalid python code in Try Editor (Graph Representations)","Navigation and interaction in dsAlgo Portal - Graph Section")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The user signs in to dsAlgo Portal with username {string} and password {string}&quot;)
+public void the_user_signs_in_to_ds_algo_portal_with_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user clicks {string} link&quot;)
+public void the_user_clicks_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user is on a page having a Try Editor with a Run button to test&quot;)
+public void the_user_is_on_a_page_having_a_try_editor_with_a_run_button_to_test() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/GraphLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify error message for Empty &amp; invalid python code for Arrays in Python page&quot;, &quot;Navigation and in...)">
+                  </a> <!-- runScenario("Verify error message for Empty & invalid python code for Arrays in Python page", "Navigation and in...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify error message for Empty & invalid python code for Arrays in Python page","Navigation and interaction in dsAlgo Portal - Array Section")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/login&apos;]&quot;}
+  (Session info: chrome=142.0.7444.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.37.0&apos;, revision: &apos;3c1da1e342&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb49b830cde14319b5214d36b47e0a20, findElement {value=//a[@href=&apos;/login&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\HAPPYF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57331}, goog:processID: 3052, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57331/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb49b830cde14319b5214d36b47e0a20
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at pageObjects.LoginPage.loginApplication(LoginPage.java:34)
+	at stepDefinitions.ArrayList.the_user_sign_in_to_ds_algo_portal_entering_firstname_vara_password_varam(ArrayList.java:29)
+	at ✽.The user sign in to dsAlgo Portal entering firstname Vara &amp; password Varam@123(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/ArrayLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to see output for valid python code for Arrays in Python page&quot;, &quot;Navigation and...)">
+                  </a> <!-- runScenario("Verify user is able to see output for valid python code for Arrays in Python page", "Navigation and...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to see output for valid python code for Arrays in Python page","Navigation and interaction in dsAlgo Portal - Array Section")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/login&apos;]&quot;}
+  (Session info: chrome=142.0.7444.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.37.0&apos;, revision: &apos;3c1da1e342&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb49b830cde14319b5214d36b47e0a20, findElement {value=//a[@href=&apos;/login&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\HAPPYF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57331}, goog:processID: 3052, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57331/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb49b830cde14319b5214d36b47e0a20
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at pageObjects.LoginPage.loginApplication(LoginPage.java:34)
+	at stepDefinitions.ArrayList.the_user_sign_in_to_ds_algo_portal_entering_firstname_vara_password_varam(ArrayList.java:29)
+	at ✽.The user sign in to dsAlgo Portal entering firstname Vara &amp; password Varam@123(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/ArrayLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to open Try Editor from Graph Representations page&quot;, &quot;Navigation and interactio...)">
+                  </a> <!-- runScenario("Verify user is able to open Try Editor from Graph Representations page", "Navigation and interactio...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to open Try Editor from Graph Representations page","Navigation and interaction in dsAlgo Portal - Graph Section")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;&apos; and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The user signs in to dsAlgo Portal with username {string} and password {string}&quot;)
+public void the_user_signs_in_to_ds_algo_portal_with_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user clicks {string} link&quot;)
+public void the_user_clicks_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/GraphLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Practice Questions list is accessible from Graph section&quot;, &quot;Navigation and interaction in ds...)">
+                  </a> <!-- runScenario("Verify Practice Questions list is accessible from Graph section", "Navigation and interaction in ds...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Practice Questions list is accessible from Graph section","Navigation and interaction in dsAlgo Portal - Graph Section")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The user signs in to dsAlgo Portal with username {string} and password {string}&quot;)
+public void the_user_signs_in_to_ds_algo_portal_with_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user clicks {string} link&quot;)
+public void the_user_clicks_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user should be redirected to Practice Questions page for Graph&quot;)
+public void the_user_should_be_redirected_to_practice_questions_page_for_graph() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/GraphLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify error message for Empty &amp; invalid python code in Try Editor (Graph topic)&quot;, &quot;Navigation and ...)">
+                  </a> <!-- runScenario("Verify error message for Empty & invalid python code in Try Editor (Graph topic)", "Navigation and ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify error message for Empty & invalid python code in Try Editor (Graph topic)","Navigation and interaction in dsAlgo Portal - Graph Section")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The user signs in to dsAlgo Portal with username {string} and password {string}&quot;)
+public void the_user_signs_in_to_ds_algo_portal_with_username_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user clicks {string} link&quot;)
+public void the_user_clicks_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The user is on a page having a Try Editor with a Run button to test&quot;)
+public void the_user_is_on_a_page_having_a_try_editor_with_a_run_button_to_test() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.The user signs in to dsAlgo Portal with username &quot;TestNinja&quot; and password &quot;C5Mha6FkdSAVEN@&quot;(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/GraphLists.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to see output for valid Linked List code for &quot;Introduction&quot; page&quot;, &quot;Navigation ...)">
+                  </a> <!-- runScenario("Verify user is able to see output for valid Linked List code for "Introduction" page", "Navigation ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to see output for valid Linked List code for "Introduction" page","Navigation and interaction in dsAlgo Portal - Linked List Section")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.60)
+Build info: version: &apos;4.37.0&apos;, revision: &apos;3c1da1e342&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb49b830cde14319b5214d36b47e0a20, get {url=https://dsportalapp.herokuapp.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\HAPPYF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57331}, goog:processID: 3052, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57331/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb49b830cde14319b5214d36b47e0a20
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at pageObjects.LoginPage.goTo(LoginPage.java:40)
+	at stepDefinitions.ArrayList.the_user_sign_in_to_ds_algo_portal_entering_firstname_vara_password_varam(ArrayList.java:28)
+	at ✽.The user sign in to dsAlgo Portal entering firstname Vara &amp; password Varam@123(file:///C:/Users/Happy%20Family/Downloads/ds_algo_cucumber-master/ds_algo_cucumber-master/src/test/resources/features/LinkedList.feature:4)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runners.MainRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user is able to navigate to Arrays in Python page&quot;, &quot;Navigation and interaction in dsAlgo Po...)">
+                  </a> <!-- runScenario("Verify user is able to navigate to Arrays in Python page", "Navigation and interaction in dsAlgo Po...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user is able to navigate to Arrays in Python page","Navigation and interaction in dsAlgo Portal - Array Section")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Happy Family\AppData\Local\Temp\testng-eclipse-1509521706\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runners.MainRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'runners.MainRunner')
+data.setCell(0, 3, 7189);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'runners.MainRunner')
+data.setCell(1, 3, 6009);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runners.MainRunner')
+data.setCell(2, 3, 5970);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'runners.MainRunner')
+data.setCell(3, 3, 5956);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'runners.MainRunner')
+data.setCell(4, 3, 5947);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'runners.MainRunner')
+data.setCell(5, 3, 5737);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'runners.MainRunner')
+data.setCell(6, 3, 3235);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'runners.MainRunner')
+data.setCell(7, 3, 181);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'runners.MainRunner')
+data.setCell(8, 3, 154);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'runners.MainRunner')
+data.setCell(9, 3, 47);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'runners.MainRunner')
+data.setCell(10, 3, 41);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'runners.MainRunner')
+data.setCell(11, 3, 41);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'runners.MainRunner')
+data.setCell(12, 3, 36);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'runners.MainRunner')
+data.setCell(13, 3, 36);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'runners.MainRunner')
+data.setCell(14, 3, 32);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'runners.MainRunner')
+data.setCell(15, 3, 31);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'runners.MainRunner')
+data.setCell(16, 3, 31);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'runners.MainRunner')
+data.setCell(17, 3, 25);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'runners.MainRunner')
+data.setCell(18, 3, 25);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'runners.MainRunner')
+data.setCell(19, 3, 25);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'runners.MainRunner')
+data.setCell(20, 3, 24);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'runners.MainRunner')
+data.setCell(21, 3, 21);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'runners.MainRunner')
+data.setCell(22, 3, 21);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'runners.MainRunner')
+data.setCell(23, 3, 20);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runners.MainRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@6f49d153)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to navigate to Array page", "Navigation and interaction in dsAlgo Portal - Arra...)</span>
+                <span class="method-start">940 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify user is able to navigate to Arrays in Python page", "Navigation and interaction in dsAlgo Po...)</span>
+                <span class="method-start">1132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to navigate to try Editor page for Arrays in Python", "Navigation and interacti...)</span>
+                <span class="method-start">8328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify error message for Empty & invalid python code for Arrays in Python page", "Navigation and in...)</span>
+                <span class="method-start">14344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify error message for Empty & invalid python code for Arrays in Python page", "Navigation and in...)</span>
+                <span class="method-start">20321 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to see output for valid python code for Arrays in Python page", "Navigation and...)</span>
+                <span class="method-start">26275 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to navigate to Graph page", "Navigation and interaction in dsAlgo Portal - Grap...)</span>
+                <span class="method-start">32237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to navigate to Graph topic page", "Navigation and interaction in dsAlgo Portal ...)</span>
+                <span class="method-start">32396 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to navigate to Graph Representations page", "Navigation and interaction in dsAl...)</span>
+                <span class="method-start">32426 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to open Try Editor from Graph topic page", "Navigation and interaction in dsAlg...)</span>
+                <span class="method-start">32455 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify error message for Empty & invalid python code in Try Editor (Graph topic)", "Navigation and ...)</span>
+                <span class="method-start">32480 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify error message for Empty & invalid python code in Try Editor (Graph topic)", "Navigation and ...)</span>
+                <span class="method-start">32520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify output for valid python code in Try Editor (Graph topic)", "Navigation and interaction in ds...)</span>
+                <span class="method-start">32571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to open Try Editor from Graph Representations page", "Navigation and interactio...)</span>
+                <span class="method-start">32618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify error message for Empty & invalid python code in Try Editor (Graph Representations)", "Navig...)</span>
+                <span class="method-start">32653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify error message for Empty & invalid python code in Try Editor (Graph Representations)", "Navig...)</span>
+                <span class="method-start">32676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify output for valid python code in Try Editor (Graph Representations)", "Navigation and interac...)</span>
+                <span class="method-start">32703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify Practice Questions list is accessible from Graph section", "Navigation and interaction in ds...)</span>
+                <span class="method-start">32727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to navigate to Linked List Page", "Navigation and interaction in dsAlgo Portal ...)</span>
+                <span class="method-start">32758 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to navigate to Introduction page", "Navigation and interaction in dsAlgo Portal...)</span>
+                <span class="method-start">38500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to navigate to Try here page for Introduction page", "Navigation and interactio...)</span>
+                <span class="method-start">41739 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Scenario Outline: Verify error message for Empty & invalid code in tryEditor page", "Navigation and...)</span>
+                <span class="method-start">41785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to see output for valid Linked List code for "Introduction" page", "Navigation ...)</span>
+                <span class="method-start">41820 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user is able to navigate to "Practice Questions" Page for "Linked List" page", "Navigation a...)</span>
+                <span class="method-start">41855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">41903 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
