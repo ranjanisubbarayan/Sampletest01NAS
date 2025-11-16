@@ -84,26 +84,42 @@ public class GraphList{
 
 	@Then("The user chooses the Graph Representations link")
 	public void the_user_chooses_the_graph_representations_link() {
+<<<<<<< HEAD
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
+=======
+	   graphPage.clickGraphRepresentations();
+>>>>>>> 1a0b864 (update commit)
 	}
 
 	@Then("The Graph Representations information page should load")
 	public void the_graph_representations_information_page_should_load() {
+<<<<<<< HEAD
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
+=======
+	    graphPage.verifyGraphRepresentationsText();
+>>>>>>> 1a0b864 (update commit)
 	}
 
 	@Then("The user selects the Try Editor button on Graph Representations page")
 	public void the_user_selects_the_try_editor_button_on_graph_representations_page() {
+<<<<<<< HEAD
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
+=======
+		graphPage.clickTryHere();
+>>>>>>> 1a0b864 (update commit)
 	}
 
 	@Then("The Try Editor page for Graph Representations should display with a Run option")
 	public void the_try_editor_page_for_graph_representations_should_display_with_a_run_option() {
+<<<<<<< HEAD
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
+=======
+		graphPage.verifyRunButtonPresent();
+>>>>>>> 1a0b864 (update commit)
 	}
 
 	@When("The user is on the Try Editor page for Graph Representations")
@@ -114,8 +130,14 @@ public class GraphList{
 
 	@Then("An alert message should be shown for Graph Representations invalid execution")
 	public void an_alert_message_should_be_shown_for_graph_representations_invalid_execution() {
+<<<<<<< HEAD
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
+=======
+		Alert alert = driver.switchTo().alert();
+		System.out.println("Alert Text: " + alert.getText());
+		alert.accept();
+>>>>>>> 1a0b864 (update commit)
 	}
 
 }

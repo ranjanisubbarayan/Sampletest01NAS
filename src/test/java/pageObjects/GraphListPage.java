@@ -29,8 +29,13 @@ public class GraphListPage {
 	@FindBy(xpath = "//div/h4[text()='Graph']")
 	WebElement verifyGraphPage;
 
+<<<<<<< HEAD
 
 	@FindBy(xpath = "//a[normalize-space()='Graph']")
+=======
+	@FindBy(xpath = "//a[@href='graph']")
+	//@FindBy(xpath = "//a[normalize-space()='Graph']")
+>>>>>>> 1a0b864 (update commit)
 	WebElement lnkGraphTopic;
 
 	@FindBy(xpath = "//a[normalize-space()='Graph Representations']")
